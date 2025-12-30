@@ -1,0 +1,51 @@
+
+
+.btn{
+
+    color: #ffffff;
+    background: #187600;
+    display: block;
+    height: 40px;
+    width: 178px;
+    font-size: 28px;
+    margin-top: 35px;
+    
+}
+
+.center{
+        justify-items: center;
+}
+
+.number-css{
+    margin-right: 4mm;
+    width: 20mm;
+    background: #00000024;
+    color: aliceblue;
+}
+
+.img-cj{
+    height: 80mm;
+    border-style: solid;
+    color: black;
+    margin-right: 39%;
+    margin-top: 12mm;
+}
+
+.family-cj{
+    background: #00000021;
+    margin-right: 2mm;
+    margin-bottom: 4mm;
+}
+
+.matn{
+   color: #ffffff; 
+}
+
+.mtn-family{
+    font-size: 20px;
+}
+
+.bady{
+        background: #9ec8c8;
+        
+}
