@@ -12,11 +12,24 @@ $(document).ready(function(){
         }
         if(a >= 3)
         {   
-            if($(".number-css").val() == "22") 
+            if($(".number-css").val() == "" || $(".family-cj").val() == "") 
             {
-                $(".matn").html("الان چیزی نوشته شد");
+                
+                $(".matn").html("خیلی ور نرو برو اطلاعلات پر کن");
+                a=0;
             }
-            a=3;
+            else
+            {
+                $(".matn").html("بسته دیگه خوش مزه");
+                $(".matn").attr("class", "matn-red");
+                $(".name").html($(".family-cj").val());
+                $(".age").html($(".number-css").val());
+                $(".hiden").attr("class", "matn-green");
+                $(".hiden").attr("class", "matn-green");
+                $(".img-cj").attr("src", "hndonh.jpg")
+                a=3;
+            }
+            
         }
         
     })

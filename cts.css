@@ -1,5 +1,4 @@
 
-
 .btn{
 
     color: #ffffff;
@@ -21,6 +20,9 @@
     width: 20mm;
     background: #00000024;
     color: aliceblue;
+    width: 50%;
+    font-size: 214%;
+    
 }
 
 .img-cj{
@@ -35,17 +37,35 @@
     background: #00000021;
     margin-right: 2mm;
     margin-bottom: 4mm;
+    width: 50%;
+    font-size: 214%;
+    color: #ffffff;
 }
 
 .matn{
    color: #ffffff; 
 }
+.matn-red{
+           color: #5a0404;
+}
 
 .mtn-family{
-    font-size: 20px;
+    font-size: 190%;
+}
+
+.hiden{
+    display: none;
+}
+
+.matn-green{
+        color: #89ff00;
+}
+
+.matn-whit{
+    color: #ffffff;
 }
 
 .bady{
-        background: #9ec8c8;
+            background: #9836af;
         
 }
